@@ -1,6 +1,6 @@
 name: "Bitfocus Companion"
 description: "Bitfocus Companion For managing a Stream Deck via Companion Satellite"
-version: "0.2.0"
+version: "0.3.0"
 slug: "bitfocus_companion"
 init: false
 arch:
@@ -10,19 +10,29 @@ startup: application
 boot: auto
 webui: "http://[HOST]:[PORT:8000]/"
 panel_icon: "mdi:remote"
+
+host_network: true
+full_access: true
+usb: true
+devices:
+  - /dev/ttyUSB0
+  - /dev/bus/usb
+
 map:
   - type: addon_config
     read_only: false
+
 ports:
   8000/tcp: 8000
   16622/tcp: 16622
   16623/tcp: 16623
   28492/tcp: 28492
+
 ports_description:
   8000/tcp: "Web interface"
   16622/tcp: "Satellite API"
   16623/tcp: "WebSocket (Elgato Plugin)"
   28492/tcp: "Additional port"
-usb: true
+
 build_args:
   BUILD_ARCH: '|arch|'
