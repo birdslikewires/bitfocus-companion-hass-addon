@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.1-3
+
+- Minor description and config changes.
+
 ## 4.0.1-2
 
 - Config oops.
