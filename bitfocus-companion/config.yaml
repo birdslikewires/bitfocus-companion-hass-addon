@@ -4,8 +4,8 @@ version: "4.0.1-2"
 slug: "bitfocus_companion"
 init: false
 arch:
+  - aarch64
   - amd64
-  - arm64
 startup: application
 boot: auto
 webui: "http://[HOST]:[PORT:8000]/"
