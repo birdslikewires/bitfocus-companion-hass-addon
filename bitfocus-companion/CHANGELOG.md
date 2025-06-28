@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.0.2-1
+
+- Version update, moved CHANGELOG.
+- Updated README.
+
 ## 4.0.1-3
 
 - Minor description and config changes.

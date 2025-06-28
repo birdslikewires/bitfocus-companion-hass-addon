@@ -1,28 +1,20 @@
-**Host Bitfocus Companion on your Pi/Odroid as a Home Assistant Add-on**
+# Bitfocus Companion Home Assistant Add-on
 
-This setup allows you to run Companion directly within Home Assistant. It integrates smoothly with the Stream Deck Companion plugin and is likely compatible with Companion Satellite as well.
+This repository installs the [Bitfocus Companion container](https://github.com/bitfocus/companion/pkgs/container/companion%2Fcompanion/versions?filters%5Bversion_type%5D=tagged) which runs within Home Assistant's implementation of Docker.
+## Installation Instructions
 
-**Installation Instructions:**
+  1. Open Home Assistant.
+  2. Go to Settings > Add-ons.
+  3. Click "Add-on Store" in the bottom-right corner.
+  4. Click on the three-dots "more" menu in the top-right corner.
+  5. Click on "Repositories".
+  6. Add this link: https://github.com/birdslikewires/bitfocus-companion-hass-addon
 
-    Open Home Assistant.
+You may need to refresh the repository list by clicking the three-dots menu and hitting "Check for updates" before Companion is available to install.
 
-    Go to Add-ons.
+Once it appears in your add-on list or search results, simply click it and choose "Install".
+## Support
 
-    Click the button to add a new repository.
+This repository was forked from other peoples' work for my own purposes. No support is offered, but you're more than welcome to use this or give me a nudge if I've missed an updated version. I'll likely only be checking occasionally when I need to make an update.
 
-    Click the three dots in the upper right corner and select Repositories.
-
-    Add this link:
-    https://github.com/birdslikewires/bitfocus-companion-hass-addon/
-
-    Click Save.
-
-    Install the Companion add-on and start hosting Bitfocus Companion!
-
-**To get started:**
-
-    Create a Companion button on a Stream Deck page.
-
-    Click "Open Companion Plugin General Configuration".
-
-    Enter the IP address of your Home Assistant instance to connect.
+Or just fork this for your own purposes too, of course!
