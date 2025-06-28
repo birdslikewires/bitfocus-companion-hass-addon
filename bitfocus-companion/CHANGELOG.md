@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.2-2
+
+- Got the correct architecture this time.
+
 ## 4.0.2-1
 
 - Version update, moved CHANGELOG.
